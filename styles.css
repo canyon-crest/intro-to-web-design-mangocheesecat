@@ -3,6 +3,7 @@ body{
     color:black;
     font-family: 'Arial', sans-serif;
     padding: 30px;
+    margin: auto;
 p {
     line-height: 2.25em;
 }
@@ -14,6 +15,21 @@ img {
     border-radius: 6px;
     margin-right: 15px;
 }
+}
+#container{
+    background:#ffbae0
+    padding: 30px;
+    width: 1180px;
+    margin: 0 auto;
+
+}
+#sidebar{
+    background: #ff6ab9;
+    padding: 20px;
+    width: 300px;
+    float: right;
+    border: solid 3px hsl(328, 96%, 47%);
+    border-radius: 6px;
 }
 h1{
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans';
@@ -57,4 +73,14 @@ a:visited{
 }
 a:hover{
     text-decoration: underline;
+}
+a:active{
+    color:black;
+}
+.highlight:active{
+    background-color: #ff6ab9;
+}
+ul{
+    line-height: 1.5em;
+    font-size: 1em;
 }
