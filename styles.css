@@ -15,13 +15,18 @@ img {
     border-radius: 6px;
     margin-right: 15px;
 }
+#pic2{
+    float:right;
+    margin-right: 0;
+    margin-left: 15px;
+}
 }
 #container{
-    background:#ffbae0
+    background:hsl(328, 100%, 96%);
     padding: 30px;
     width: 1180px;
-    margin: 0 auto;
-
+    margin: 30px 30px;
+    border: solid 3px hsl(0, 0%, 100%);
 }
 #sidebar{
     background: #ff6ab9;
@@ -61,6 +66,7 @@ h3{
     color: black;
     padding: 4px;
     border-radius: 5px;
+    width: fit-content;
 }
 a{
     color: #ff6ab9;
@@ -68,7 +74,7 @@ a{
     font-weight: bold;
 }
 a:visited{
-    color: hsl(328, 47%, 51%);
+    color: hsl(328, 60%, 43%);
     font-weight: bold;
 }
 a:hover{
@@ -80,7 +86,13 @@ a:active{
 .highlight:active{
     background-color: #ff6ab9;
 }
+img:hover{
+    border-color:aqua;
+    boxx-shadow: .5px .5px 15px #36ffd780;
+}
+
 ul{
     line-height: 1.5em;
     font-size: 1em;
 }
+
