@@ -88,7 +88,7 @@ a:active{
 }
 img:hover{
     border-color:aqua;
-    boxx-shadow: .5px .5px 15px #36ffd780;
+    box-shadow: .5px .5px 15px #36ffd780;
 }
 
 ul{
