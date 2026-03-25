@@ -8,6 +8,12 @@ body{
 p {
     line-height: 2.25em;
 }
+.paragraphbox{
+    background-color: hotpink
+    padding: 14px
+    border-radius: 10px;
+    margin-bottom: 25px;
+}
 
 img {
     width: 300px;
@@ -145,11 +151,5 @@ ul{
     margin-top: 0;
     text-align: center;
     color: white;
-}
-.paragraphbox{
-    background-color: #c83070a7
-    padding: 14px
-    border-radius: 10px;
-    margin-bottom: 25px;
 }
 
