@@ -9,8 +9,8 @@ p {
     line-height: 2.25em;
 }
 .paragraphbox{
-    background-color: hotpink
-    padding: 14px
+    background-color: rgb(255, 225, 239);
+    padding: 14px;
     border-radius: 10px;
     margin-bottom: 25px;
 }
@@ -152,4 +152,6 @@ ul{
     text-align: center;
     color: white;
 }
-
+a, img, #sidebar{
+    transition: all 0.3s ease;
+}
