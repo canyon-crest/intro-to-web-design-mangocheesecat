@@ -4,6 +4,7 @@ body{
     font-family: 'Arial', sans-serif;
     padding: 30px;
     margin: auto;
+}
 p {
     line-height: 2.25em;
 }
@@ -19,7 +20,6 @@ img {
     float:right;
     margin-right: 0;
     margin-left: 15px;
-}
 }
 #container{
     background:hsl(328, 100%, 96%);
